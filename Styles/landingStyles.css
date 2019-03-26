@@ -1,0 +1,31 @@
+
+header {
+    display: block;
+    height: 500px;
+    width: 100vw;
+    background: rgb(116, 167, 116);
+    color: rgb(255, 255, 255);
+}
+h1 {
+    text-align: center;
+    margin-top: 15%;
+}
+body {
+    display: inline-block;
+    background: rgb(90, 75, 75);
+    color: rgb(247, 232, 232);
+
+}
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0% auto;
+  }
+
+  article {
+    height: 324px;
+    width: 270px;
+    text-align: center;
+    padding: 20px;
+  }
