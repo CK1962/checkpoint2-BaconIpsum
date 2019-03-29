@@ -1,57 +1,61 @@
+body {
+    margin: 0% auto;
+    width: 99vw;
+    background: rgb(90, 75, 75);
+    color: rgb(247, 232, 232);
+}
+
 header {
     display: block;
-    height: 500px;
-    width: 100vw;
+    height: 200px;
+    width: 98vw;
     background: rgb(116, 167, 116);
     color: rgb(255, 255, 255);
     text-align: center;
 }
 
-.home2 {
-    background: transparent;
-    padding: 25px;
+nav {
     display: inline-flex;
-    margin: 2% 45% 2%;
-    width: 80%;
-    border: 5px solid blue;
-    border-radius: 10%;
+    margin: 2% 50% 2%;
+    width: 80vw;
+    padding: 15px;
 }
 
+.home2 {
+    margin-right: 10px;
+    width: 45px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 40%;
+    text-align: center;
+    text-justify: auto;
+    padding: 15px;
+}
 
 .youtube {
     display: flex;
     flex-wrap: wrap;
-    width: 100vw;
+    width: 95vw;
     height: 100vh;
     margin: 2% 2% 2%;
-
 }
 
 h1 {
     text-align: center;
-    margin-top: 5%;
+    margin-top: 1%;
 }
 
 h2 {
     text-align: center;
 }
 
-body {
-    margin: 0% auto;
-    width: 100vw;
-    background: rgb(90, 75, 75);
-    color: rgb(247, 232, 232);
-}
-
-
-.bacon {
+.container3 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin: 0% auto;
 }
 
-.block1 {
+#block1 {
     width: 80%;
     height: 50px;
     background: blue;
@@ -59,7 +63,15 @@ body {
     margin: 15px;
 }
 
-.block2 {
+#block1:hover {
+    width: 80%;
+    height: 50px;
+    background: blueviolet;
+    border: 5px solid blueviolet;
+    margin: 15px;
+}
+
+#block2 {
     width: 80%;
     height: 50px;
     background: orange;
@@ -67,7 +79,15 @@ body {
     margin: 15px;
 }
 
-.block3 {
+#block2:hover {
+    width: 80%;
+    height: 50px;
+    background: orangered;
+    border: 5px solid orangered;
+    margin: 15px;
+}
+
+#block3 {
     width: 80%;
     height: 50px;
     background: teal;
@@ -75,8 +95,61 @@ body {
     margin: 15px;
 }
 
+#block3:hover {
+    width: 80%;
+    height: 50px;
+    background: green;
+    border: 5px solid green;
+    margin: 15px;
+}
+
 article {
     height: 324px;
     width: 270px;
     padding: 20px;
+}
+
+@media (max-width: 576px) {
+
+    .container1 {
+        background: rgb(116, 187, 235);
+        color: rgb(90, 75, 75);
+    }
+
+    header {
+        background: rgb(144, 201, 240);
+        color: rgb(241, 232, 220);
+    }
+
+    .home {
+        margin-right: 5px;
+        width: 30px;
+        border: 2px solid rgb(255, 255, 255);
+        border-radius: 40%;
+        font-size: 14px;
+        text-align: center;
+        text-justify: auto;
+        padding: 15px;
+    }
+
+    .about {
+        margin-right: 10px;
+        width: 45px;
+        border: 2px solid rgb(255, 255, 255);
+        border-radius: 40%;
+        font-size: 14px;
+        text-align: center;
+        text-justify: auto;
+        padding: 10px;
+    }
+
+    body {
+        background: rgb(241, 232, 220);
+        color: rgb(90, 75, 75);
+    }
+
+    .container3 {
+        display: grid;
+        grid-template-columns: repeat (auto-fit, minmax (340px, 1fr);
+    }
 }

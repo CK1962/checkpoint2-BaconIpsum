@@ -106,7 +106,7 @@ article {
 @media (max-width:576px) {
 
     header {
-        background: rgb(144, 201, 240);
+        background: rgb(116, 187, 235);
         color: rgb(241, 232, 220);
     }
     nav {
@@ -118,7 +118,7 @@ article {
     .about {
         margin-right: 10px;
         width: 45px;
-        border: 2px solid black;
+        border: 2px solid rgb(255, 255, 255);
         border-radius: 40%;
         font-size: 14px;
         text-align: center;
