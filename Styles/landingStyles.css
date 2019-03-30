@@ -37,6 +37,7 @@ nav {
 }
 
 h1 {
+    font-family: 'Lobster', cursive;
     text-align: center;
     margin-top: 5%;
 }
@@ -55,8 +56,8 @@ section {
 .block1 {
     width: 80%;
     height: 50px;
-    background: blue;
-    border: 5px solid blue;
+    background: rgb(27, 133, 219);
+    border: 5px solid rgb(27, 133, 219);
     margin: 15px;
 }
 .block1:hover {

@@ -1,1 +1,171 @@
+body {
+    margin: 0% auto;
+    width: 99vw;
+    background:rgb(27, 133, 219) ;
+    color: rgb(247, 232, 232);
+}
 
+.container1 {
+    display: block;
+    height: 400px;
+    width: 98vw;
+    background: rgb(116, 167, 116);
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+nav>a {
+    height: 100px;
+    width: 90vw;
+    background: transparent;
+    padding: 25px;
+}
+
+nav {
+    display: inline-flex;
+    margin: 2% 40% 2%;
+    width: 80vw;
+    padding: 15px;
+}
+
+.home {
+    margin-right: 10px;
+    width: 45px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 40%;
+    text-align: center;
+    text-justify: auto;
+    padding: 15px;
+}
+
+.about {
+    margin-right: 10px;
+    width: 45px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 40%;
+    text-align: center;
+    text-justify: auto;
+    padding: 10px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 2%;
+}
+
+h2 {
+    text-align: center;
+}
+
+.container3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0% auto;
+}
+
+#block1 {
+    width: 80%;
+    height: 50px;
+    background: rgb(27, 133, 219);
+    border: 5px solid rgb(27, 133, 219);
+    margin: 15px;
+}
+
+#block1:hover {
+    width: 80%;
+    height: 50px;
+    background: blueviolet;
+    border: 5px solid blueviolet;
+    margin: 15px;
+}
+
+#block2 {
+    width: 80%;
+    height: 50px;
+    background: orange;
+    border: 5px solid orange;
+    margin: 15px;
+}
+
+#block2:hover {
+    width: 80%;
+    height: 50px;
+    background: orangered;
+    border: 5px solid orangered;
+    margin: 15px;
+}
+
+#block3 {
+    width: 80%;
+    height: 50px;
+    background: teal;
+    border: 5px solid teal;
+    margin: 15px;
+}
+
+#block3:hover {
+    width: 80%;
+    height: 50px;
+    background: green;
+    border: 5px solid green;
+    margin: 15px;
+}
+
+article {
+    height: 324px;
+    width: 270px;
+    padding: 20px;
+}
+
+@media (max-width: 576px) {
+
+    .container1 {
+        background: rgb(116, 187, 235);
+        color: rgb(90, 75, 75);
+    }
+
+    header {
+        background: rgb(116, 187, 235);
+        color: rgb(241, 232, 220);
+    }
+
+    nav {
+        display: grid;
+        margin: 2% 75% 2%;
+        width: 80vw;
+        padding: 15px;
+    }
+
+    .home {
+        margin-right: 5px;
+        width: 30px;
+        border: 2px solid rgb(255, 255, 255);
+        border-radius: 40%;
+        font-size: 14px;
+        text-align: center;
+        text-justify: auto;
+        padding: 15px;
+    }
+
+    .about {
+        margin-right: 10px;
+        width: 45px;
+        border: 2px solid rgb(255, 255, 255);
+        border-radius: 40%;
+        font-size: 14px;
+        text-align: center;
+        text-justify: auto;
+        padding: 10px;
+    }
+
+    body {
+        background: rgb(241, 232, 220);
+        color: rgb(90, 75, 75);
+    }
+
+    .container3 {
+        display: grid;
+        grid-template-columns: repeat (auto-fit, minmax (340px, 1fr));
+    }
+}
