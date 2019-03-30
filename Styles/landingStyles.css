@@ -12,6 +12,9 @@ body {
     background: rgb(116, 167, 116);
     color: rgb(255, 255, 255);
 }
+.frame {
+    padding: 15px;
+}
 
 nav>a {
     height: 100px;
