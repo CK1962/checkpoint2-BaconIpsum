@@ -5,23 +5,39 @@ body {
     color: rgb(247, 232, 232);
 }
 
-header {
+.container1 {
     display: block;
-    height: 200px;
+    height: 400px;
     width: 98vw;
     background: rgb(116, 167, 116);
     color: rgb(255, 255, 255);
     text-align: center;
 }
 
+nav>a {
+    height: 100px;
+    width: 90vw;
+    background: transparent;
+    padding: 25px;
+}
+
 nav {
     display: inline-flex;
-    margin: 2% 50% 2%;
+    margin: 2% 40% 2%;
     width: 80vw;
     padding: 15px;
 }
 
-.home2 {
+.home {
+    margin-right: 10px;
+    width: 45px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 40%;
+    text-align: center;
+    text-justify: auto;
+    padding: 15px;
+}
+.article {
     margin-right: 10px;
     width: 45px;
     border: 2px solid rgb(255, 255, 255);
@@ -31,17 +47,17 @@ nav {
     padding: 15px;
 }
 
+h1 {
+    text-align: center;
+    margin-top: 1%;
+}
+
 .youtube {
     display: flex;
     flex-wrap: wrap;
     width: 95vw;
-    height: 100vh;
+    height: 400px;
     margin: 2% 2% 2%;
-}
-
-h1 {
-    text-align: center;
-    margin-top: 1%;
 }
 
 h2 {
@@ -132,9 +148,9 @@ article {
         padding: 15px;
     }
 
-    .about {
+    .article {
         margin-right: 10px;
-        width: 45px;
+        width: 40px;
         border: 2px solid rgb(255, 255, 255);
         border-radius: 40%;
         font-size: 14px;
@@ -150,6 +166,6 @@ article {
 
     .container3 {
         display: grid;
-        grid-template-columns: repeat (auto-fit, minmax (340px, 1fr);
+        grid-template-columns: repeat (auto-fit, minmax (340px, 1fr));
     }
 }
